@@ -1,11 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    align-items: center;
 }
-
-.header{
+.container{
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+   
+}
+.container > h1 {
     text-align: center;
-    padding: 20px;
-    
+}
+ul{
+    list-style-type: none;
+}
+.list-item{
     background-color: antiquewhite;
+    margin-bottom: 1px;
+    padding: 8px 0;
+    text-align: center;
 }
